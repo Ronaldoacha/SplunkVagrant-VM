@@ -1,8 +1,13 @@
 Software Needed 
 
-1 Download and install Oracle-VirtualBox on your computer visit "https://www.virtualbox.org/". 
+0.1 Download and install Oracle-VirtualBox on your computer visit "https://www.virtualbox.org/". 
 Check and confirm it was succesffuly install
+0.2 Download vagrant from "https://developer.hashicorp.com/vagrant/install"
+ * After installing check if vagrant was successfully install.
+"vagrant --version" on your terminal
 
+
+############################################################
 2 Do a git clone "url"
 
 3 cd into the project
@@ -23,7 +28,7 @@ Default UI port "http://localhost:8001
   ############################################################################################
 To login to the VM, 
 Run "vagrant ssh"
-sudo  -i, to append super roles
+sudo  -i, to append super roles.
 check your VM Specs
 free -h
 lscpu
