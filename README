@@ -28,7 +28,7 @@ Default UI port "http://localhost:8001
   ############################################################################################
 To login to the VM, 
 Run "vagrant ssh"
-sudo  -i, to append super roles
+sudo  -i, to append super roles.
 check your VM Specs
 free -h
 lscpu
