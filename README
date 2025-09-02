@@ -28,3 +28,8 @@ check your VM Specs
 free -h
 lscpu
  Access your Splunk BE
+
+#####################################Stop or destroy the VM from running after your work############
+to stop run "vagrant halt"
+to completly destroy run 'vagrant destroy <VM ID>
+To know running VM on your machin run "vagrant global-status" on your terminal
