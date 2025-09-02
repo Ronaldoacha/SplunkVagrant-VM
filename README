@@ -1,0 +1,29 @@
+Software Needed 
+
+1 Download and install Oracle-VirtualBox on your computer visit "https://www.virtualbox.org/". 
+Check and confirm it was succesffuly install
+
+2 Do a git clone "url"
+
+3 cd into the project
+
+4 Feel free to edit the Vagrantfile and update the host [OPTIONAL]
+
+5 Run "chmod +x provision-splunk .sh" to give the scripts permissions
+
+6 Run "vagrant up" to Automatically download, configure your VM, This will also execute the bash scripts
+
+  - Download Splunk 
+  -Extract it
+  -Create a Splunk user with admin roles
+  - Set Up basic configurations
+  - Print User login info. [You can change the information: optional]
+ --  Feel free to change the Host
+  ############################################################################################
+To login to the VM, 
+Run "vagrant ssh"
+sudo  -i, to append super roles
+check your VM Specs
+free -h
+lscpu
+ Access your Splunk BE
