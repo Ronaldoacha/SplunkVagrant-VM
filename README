@@ -19,6 +19,7 @@ Check and confirm it was succesffuly install
   - Set Up basic configurations
   - Print User login info. [You can change the information: optional]
  --  Feel free to change the Host
+Default UI port "http://localhost:8001
   ############################################################################################
 To login to the VM, 
 Run "vagrant ssh"
